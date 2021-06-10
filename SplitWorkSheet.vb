@@ -4,7 +4,7 @@ Sub SplitWorkSheet()
     '******************************************************
     'Validation Check active workbook file path missing
     If ActiveWorkbook.Path = vbNullString Then
-        MsgBox "Please save the workbook to run the code", vbCritical, "Excel Exciting | Faraz Shaikh"
+        MsgBox "Please save the workbook to run the code", vbCritical, "Excel Exciting"
         Exit Sub
     End If
     '******************************************************
